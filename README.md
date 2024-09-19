@@ -15,7 +15,7 @@ Cuda  12.1
 
 ## 构建过程
 
-构建服务器后下载整合包(4.9.7) 上传到数据盘（无卡模式）
+创建实例后下载整合包(4.9.7) 上传到数据盘（无卡模式）
 注：建议本地解压后运行后再压缩为7z格式上传  避免出现密码错误
 
 #### 安装7z
@@ -67,7 +67,6 @@ echo 'export HF_ENDPOINT="https://hf-mirror.com"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-
 ## 运行开玩
 
 ```sh
@@ -79,7 +78,7 @@ conda activate sdwebui
 ./webui.sh --port 15026 --listen --enable-insecure-extension-access --xformers
 ```
 
-下载官方端口代理，代理15026就可以了
+下载[官方端口代理](https://www.autodl.com/docs/ssh_proxy/)，代理15026就可以了
 
 ## 学习
 
